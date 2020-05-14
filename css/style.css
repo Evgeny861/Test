@@ -287,6 +287,8 @@ input::placeholder {
 .right-part-feature {
     margin-top: 107px;
     margin-bottom: 133px;
+    
+    
 }
 .title-feature-2 {
     color: #212121;
@@ -857,13 +859,32 @@ footer {
 
 
 
-@media (max-width:720px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width:720px) { 
+    
     .container {
         width:100%;
 }
-    .header {
-        
-    }
     .under-header {
         max-width:318px ;
         display: flex;
@@ -884,6 +905,7 @@ footer {
     .text {
         font-size: 14px;
         text-align: center;
+        max-width: 280px;
     }
     .image-header {
         width: 100px;
@@ -905,10 +927,25 @@ footer {
     .h2 {
         font-size: 15px;
     }
+    .right-part-feature {
+        margin-top: 107px;
+        margin-bottom: 133px;margin-bottom: 28px;
+        text-align: center;
+    }
+    .lorem-feature-2 {
+        flex-direction: column;
+    }
+    .right-part-feature-3 {
+        margin-left: 25px;
+    }
     .info {
         width: auto;
         margin: auto;
         
+    }
+    .button-feature {
+        margin-left: 45%;
+        margin-bottom: 44px;
     }
     .under-brand {
         display: flex;
@@ -944,7 +981,7 @@ footer {
     }
     .lorem-feature {
         margin: auto;
-        max-width: 400px;
+        max-width:270px;
     }
     .lorem-image {
         margin: auto;
@@ -967,9 +1004,17 @@ footer {
         margin-top: 25px;
     }
     .awesome-center {
-        display: inline-block;
+        display: flex;
         margin-bottom: 25px;
         margin-top: 15px;
+        max-width: 320px;
+        flex-direction: column;
+    }
+    .feature-small-2 {
+        margin-bottom: 10px;
+    }
+    .right-part-awesome {
+        text-align: center;
     }
     .price-center {
         display: inline-block;
@@ -1024,6 +1069,7 @@ max-width: 318px;
     }
     .contact-under {
         max-width: 318px;
+        text-align: center;
     }
     .under-footer {max-width: 318px;}
     .form-1 {
@@ -1032,4 +1078,5 @@ max-width: 318px;
     .message-input{
         width: auto;
     }
-}
+/* } */
+

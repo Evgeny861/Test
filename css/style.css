@@ -993,6 +993,7 @@ footer {
     }
     .feature-2 {
         display: inline-block;
+        margin-left:10%;
     }
     .feature-2-upper {
         display: flex;

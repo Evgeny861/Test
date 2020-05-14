@@ -254,6 +254,13 @@ input::placeholder {
     font-weight: 400;
     border-radius: 3px;
 }
+.feature-2 {
+    display: flex;
+    max-width: 960px;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
 
 .feature-2-under {
     display: flex;
@@ -262,19 +269,20 @@ input::placeholder {
     margin: auto;
     max-width: 960px;
 }
-.img-feature-2 {
-    box-shadow: 5px 7px 20px  rgba(0,0,0,0.5); /* Параметры тени */
-    position: relative;
-}
+
 .text-on-image-1 {
-    position: absolute;
-    opacity: 0.22;
-    color: #ffffff;
+    background: url(/img/image_left_sub_list_u260_copy.png) no-repeat;
     font-family: "Open Sans";
     font-size: 33px;
     font-weight: 400;
-    top: 1720px;
-    left: 445px;
+    box-shadow: 5px 7px 20px rgba(0,0,0,0.5);
+    position: relative;
+    width: 453px;
+    
+    text-align: center;
+    color: #b0b0b0;
+    padding-top: 25%;
+    padding-bottom: 22%;
 }
 .right-part-feature {
     margin-top: 107px;
@@ -321,6 +329,15 @@ input::placeholder {
 }
 .feature-3 {
     background-color: #f5f5f5;
+    
+}
+.feature-3-upper {
+    display: flex;
+    max-width: 960px;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    flex-direction: row-reverse;
 }
 .feature-3-under {
     display: flex;
@@ -835,11 +852,184 @@ footer {
 .img-footer {
     width: 23px;
 }
+
+
+
+
+
 @media (max-width:720px) {
     .container {
         width:100%;
 }
     .header {
         
+    }
+    .under-header {
+        max-width:318px ;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .ul-navbar {
+        display: flex;
+    }
+    .li-navbar {
+        margin: 0;
+    }
+    .under-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text {
+        font-size: 14px;
+        text-align: center;
+    }
+    .image-header {
+        width: 100px;
+    }
+    .text-left {
+        font-size: 18px;
+    }
+    .lorem-header{
+        font-size: 10px;
+    }
+    .form {
+        width: 250px;
+        margin-bottom: 25px;
+        margin-right: auto;
+        justify-content: center;
+    margin: 0;
+    margin-bottom: 25px;
+    }
+    .h2 {
+        font-size: 15px;
+    }
+    .info {
+        width: auto;
+        margin: auto;
+        
+    }
+    .under-brand {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .social-small{
+        font-size: 12px;
+    }
+    .sotial-img {
+        width: 25px;
+    }
+    .double-image {
+        border: 2px solid #ff9142;
+    border-radius: 50%;
+    padding: 13px;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    margin-right: 19px;
+    margin: auto;
+    }
+    
+    .feature-1-under{
+        flex-wrap: wrap;
+    }
+    .tabs {
+        width: 50%;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .lorem-feature {
+        margin: auto;
+        max-width: 400px;
+    }
+    .lorem-image {
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .feature-2 {
+        display: inline-block;
+    }
+    .feature-2-upper {
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+    }
+    
+    .text-on-image-1 {
+        max-width: 270px;
+    }
+    .feature-3-upper {
+        display: inline-block;
+        margin-top: 25px;
+    }
+    .awesome-center {
+        display: inline-block;
+        margin-bottom: 25px;
+        margin-top: 15px;
+    }
+    .price-center {
+        display: inline-block;
+    }
+    .basic-2 {
+        margin: auto;
+    }
+    .customer-center {
+        display: flex;
+        flex-direction: column;
+    }
+    .customer-tab-2 {
+        margin: 50px 30px;
+    }
+    .contact-form {
+        flex-wrap: wrap;
+    }
+    .social-links {
+        display: flex;
+    }
+    .under-main {
+        max-width: 318px;
+    }
+    .under-brand {
+        max-width: 318px;
+    }
+    .feature-1-under {
+        max-width: 318px;
+    }
+    .feature-2 {
+        max-width: 318px;
+    }
+    .feature-2-under {
+        max-width: 318px;
+    }
+    .feature-3-upper {
+        max-width: 318px;
+    }
+    .feature-3-under {
+max-width: 318px;
+    }
+    .under-awesome { max-width: 318px;
+    }
+    .right-part-price {
+        max-width: 318px;
+    }
+    .right-part-customer {
+        max-width: 318px;
+    }
+    .under-desine {
+        max-width: 318px;
+    }
+    .contact-under {
+        max-width: 318px;
+    }
+    .under-footer {max-width: 318px;}
+    .form-1 {
+        width: auto;
+    }
+    .message-input{
+        width: auto;
     }
 }

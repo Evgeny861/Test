@@ -1007,6 +1007,7 @@ footer {
     .feature-3-upper {
         display: inline-block;
         margin-top: 25px;
+        margin-left:5%;
     }
     .awesome-center {
         display: flex;

@@ -893,6 +893,7 @@ footer {
     }
     .ul-navbar {
         display: flex;
+        margin-right:10%;
     }
     .li-navbar {
         margin: 0;
@@ -902,6 +903,9 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+     .button-header {
+        margin-bottom: 80px;
+     }
     .text {
         font-size: 14px;
         text-align: center;
@@ -944,7 +948,7 @@ footer {
         
     }
     .button-feature {
-        margin-left: 45%;
+        
         margin-bottom: 44px;
     }
     .under-brand {

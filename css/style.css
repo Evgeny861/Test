@@ -271,7 +271,7 @@ input::placeholder {
 }
 
 .text-on-image-1 {
-    background: url(/img/image_left_sub_list_u260_copy.png) no-repeat;
+    background: url(/img/image_left_sub_list_u260_copy.png) no-repeat #9a9a9a;
     font-family: "Open Sans";
     font-size: 33px;
     font-weight: 400;
